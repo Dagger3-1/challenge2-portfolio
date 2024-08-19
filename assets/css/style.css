@@ -33,7 +33,7 @@ header li {
 }
 
 #hero {
-    background: url(https://placehold.co/1200x300);
+    background: url("https//.placehold.1200x300");
     background-size: contain;
     height: 55vh;
     width: 100%;
@@ -49,7 +49,7 @@ figure h3{
 
 }
 
-main {
+main,footer {
     display: flex;
     flex-wrap: wrap;
 
@@ -70,4 +70,14 @@ section {
 #too-big img{
     width: 100%
 
+}
+#small-pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+#small-pics section{
+    flex: 1 0 45%;
+}
+#small-pics img{
+    width: 100%;
 }
